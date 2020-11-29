@@ -1,4 +1,4 @@
-### URL- https://sathvik987.github.io/face-detector-front-end/
+#### URL- https://sathvik987.github.io/face-detector-front-end/
 
 #### This react app can detect multiple faces in a photo using clarifai face detection model. Check out back-end [here](https://github.com/sathvik987/face-detector-back-end).
 
