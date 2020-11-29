@@ -1,6 +1,6 @@
 ### URL- (Check about section)
 
-#### This react app can detect multiple faces in a photo using clarifai face detection model. check out back-end [here](https://github.com/sathvik987/face-detector-back-end).
+#### This react app can detect multiple faces in a photo using clarifai face detection model. Check out back-end [here](https://github.com/sathvik987/face-detector-back-end).
 
 Note - Change api calls to localhost or custom url
 
