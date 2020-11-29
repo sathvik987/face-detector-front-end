@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/face-detector-front-end/static/css/main.81029666.chunk.css",
+    "main.js": "/face-detector-front-end/static/js/main.5e2ff690.chunk.js",
+    "main.js.map": "/face-detector-front-end/static/js/main.5e2ff690.chunk.js.map",
+    "runtime-main.js": "/face-detector-front-end/static/js/runtime-main.cd0c687f.js",
+    "runtime-main.js.map": "/face-detector-front-end/static/js/runtime-main.cd0c687f.js.map",
+    "static/css/2.31461e4f.chunk.css": "/face-detector-front-end/static/css/2.31461e4f.chunk.css",
+    "static/js/2.a961f414.chunk.js": "/face-detector-front-end/static/js/2.a961f414.chunk.js",
+    "static/js/2.a961f414.chunk.js.map": "/face-detector-front-end/static/js/2.a961f414.chunk.js.map",
+    "index.html": "/face-detector-front-end/index.html",
+    "static/css/2.31461e4f.chunk.css.map": "/face-detector-front-end/static/css/2.31461e4f.chunk.css.map",
+    "static/css/main.81029666.chunk.css.map": "/face-detector-front-end/static/css/main.81029666.chunk.css.map",
+    "static/js/2.a961f414.chunk.js.LICENSE.txt": "/face-detector-front-end/static/js/2.a961f414.chunk.js.LICENSE.txt",
+    "static/media/brain.5ed43642.png": "/face-detector-front-end/static/media/brain.5ed43642.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cd0c687f.js",
+    "static/css/2.31461e4f.chunk.css",
+    "static/js/2.a961f414.chunk.js",
+    "static/css/main.81029666.chunk.css",
+    "static/js/main.5e2ff690.chunk.js"
+  ]
+}
