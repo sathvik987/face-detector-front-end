@@ -4,23 +4,11 @@ import Logo from './components/Logo/Logo';
 import ImageLinkForm from './components/ImageLinkForm/ImageLinkForm';
 import FaceRecognition from './components/FaceRecognition/FaceRecognition';
 import Rank from './components/Rank/Rank';
-import Particles from 'react-particles-js';
+import ParticlesBg from 'particles-bg';
 import Signin from './components/Signin/Signin';
 import Register from './components/Register/Register';
 import './App.css';
 
-
-const particlesOptions = {
-  particles: {
-    number: {
-      value: 80,
-      density: {
-        enable: true,
-        value_area: 800
-      }
-    }
-  }
-}
 
 const initialState = {
   input: '',
@@ -44,7 +32,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    fetch('https://fathomless-ravine-65932.herokuapp.com/').then(res => console.log(res.status))
+    fetch('http://localhost:3001/').then(res => console.log(res.status))
   }
 
   loadUser = (data) => {
@@ -86,7 +74,7 @@ class App extends Component {
 
   onButtonSubmit = () => {
     this.setState({ imageUrl: this.state.input });
-    fetch('https://fathomless-ravine-65932.herokuapp.com/imageurl', {
+    fetch('http://localhost:3001/imageurl', {
       method: 'post',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
@@ -95,7 +83,7 @@ class App extends Component {
     }).then(response => response.json())
       .then(response => {
         if (response.outputs) {
-          fetch('https://fathomless-ravine-65932.herokuapp.com/image', {
+          fetch('http://localhost:3001/image', {
             method: 'put',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({
@@ -127,9 +115,7 @@ class App extends Component {
     const { isSignedIn, imageUrl, route, box } = this.state;
     return (
       <div className="App">
-        <Particles className='particles'
-          params={particlesOptions}
-        />
+        <ParticlesBg type='cobweb' bg={true} color="#fffaf9" />
         <Navigation isSignedIn={isSignedIn} onRouteChange={this.onRouteChange} />
         {route === 'home'
           ? <div>
